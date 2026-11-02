@@ -17,10 +17,10 @@ One row per stable npm version, following the PCOM-01 record schema (224 columns
 ```
 git clone --depth 1 --filter=blob:none --sparse https://github.com/github/advisory-database.git advisory-database
 git -C advisory-database sparse-checkout set advisories/github-reviewed
-python code/01_extract_advisories.py advisory-database
-python code/02_select_packages.py
-python code/03_build_dataset.py
-python code/04_validate.py
+python code/extract_advisories.py advisory-database
+python code/select_packages.py
+python code/build_dataset.py
+python code/validate.py
 ```
 
 The npm search results change over time, so step 2 can pick other packages on a later run.
