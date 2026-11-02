@@ -1,0 +1,16 @@
+{
+  "snapshot": "2026-11-01T21:35:52+00:00",
+  "groups": {
+    "popular_random": {
+      "packages": 120,
+      "rows": 6361,
+      "rows_with_new_ghsa": 74
+    },
+    "advisory_enriched": {
+      "packages": 120,
+      "rows": 7019,
+      "rows_with_new_ghsa": 632
+    }
+  },
+  "skipped": []
+}
