@@ -1,0 +1,188 @@
+{
+ "cut": "2024-05-31",
+ "test_rows": 6845,
+ "test_packages": 408,
+ "natural_share_with_advisory": 0.022,
+ "severity": {
+  "low": {
+   "test_positive_rows": 88,
+   "test_positive_packages": 11,
+   "base_rate": 0.0129,
+   "base_rate_natural_mix": 0.001,
+   "pr_auc_gbdt": 0.013,
+   "pr_auc_gbdt_natural_mix": 0.001,
+   "pr_auc_logreg": 0.013,
+   "pr_auc_logreg_natural_mix": 0.001,
+   "pr_auc_mean": 0.013,
+   "pr_auc_mean_natural_mix": 0.001,
+   "pr_auc_rule": 0.106,
+   "pr_auc_rule_natural_mix": 0.098
+  },
+  "moderate": {
+   "test_positive_rows": 221,
+   "test_positive_packages": 30,
+   "base_rate": 0.0323,
+   "base_rate_natural_mix": 0.0025,
+   "pr_auc_gbdt": 0.067,
+   "pr_auc_gbdt_natural_mix": 0.013,
+   "pr_auc_logreg": 0.193,
+   "pr_auc_logreg_natural_mix": 0.166,
+   "pr_auc_mean": 0.153,
+   "pr_auc_mean_natural_mix": 0.078,
+   "pr_auc_rule": 0.096,
+   "pr_auc_rule_natural_mix": 0.071
+  },
+  "high": {
+   "test_positive_rows": 448,
+   "test_positive_packages": 47,
+   "base_rate": 0.0654,
+   "base_rate_natural_mix": 0.005,
+   "pr_auc_gbdt": 0.088,
+   "pr_auc_gbdt_natural_mix": 0.018,
+   "pr_auc_logreg": 0.132,
+   "pr_auc_logreg_natural_mix": 0.08,
+   "pr_auc_mean": 0.121,
+   "pr_auc_mean_natural_mix": 0.055,
+   "pr_auc_rule": 0.142,
+   "pr_auc_rule_natural_mix": 0.09
+  },
+  "critical": {
+   "test_positive_rows": 136,
+   "test_positive_packages": 17,
+   "base_rate": 0.0199,
+   "base_rate_natural_mix": 0.0015,
+   "pr_auc_gbdt": 0.026,
+   "pr_auc_gbdt_natural_mix": 0.003,
+   "pr_auc_logreg": 0.019,
+   "pr_auc_logreg_natural_mix": 0.003,
+   "pr_auc_mean": 0.022,
+   "pr_auc_mean_natural_mix": 0.002,
+   "pr_auc_rule": 0.022,
+   "pr_auc_rule_natural_mix": 0.005
+  },
+  "unknown": {
+   "test_positive_rows": 0,
+   "test_positive_packages": 0
+  }
+ },
+ "any_by_threshold": {
+  "gbdt@0.5": {
+   "rows_flagged": 4,
+   "precision": 0.0,
+   "recall": 0.0,
+   "precision_natural_mix": 0.0,
+   "recall_natural_mix": 0.0
+  },
+  "gbdt@0.3": {
+   "rows_flagged": 7,
+   "precision": 0.143,
+   "recall": 0.001,
+   "precision_natural_mix": 0.143,
+   "recall_natural_mix": 0.001
+  },
+  "gbdt@0.2": {
+   "rows_flagged": 33,
+   "precision": 0.242,
+   "recall": 0.011,
+   "precision_natural_mix": 0.242,
+   "recall_natural_mix": 0.011
+  },
+  "gbdt@0.1": {
+   "rows_flagged": 103,
+   "precision": 0.32,
+   "recall": 0.047,
+   "precision_natural_mix": 0.086,
+   "recall_natural_mix": 0.047
+  },
+  "gbdt@0.05": {
+   "rows_flagged": 271,
+   "precision": 0.262,
+   "recall": 0.1,
+   "precision_natural_mix": 0.049,
+   "recall_natural_mix": 0.1
+  },
+  "logreg@0.5": {
+   "rows_flagged": 14,
+   "precision": 0.786,
+   "recall": 0.016,
+   "precision_natural_mix": 0.786,
+   "recall_natural_mix": 0.016
+  },
+  "logreg@0.3": {
+   "rows_flagged": 18,
+   "precision": 0.722,
+   "recall": 0.018,
+   "precision_natural_mix": 0.722,
+   "recall_natural_mix": 0.018
+  },
+  "logreg@0.2": {
+   "rows_flagged": 21,
+   "precision": 0.762,
+   "recall": 0.023,
+   "precision_natural_mix": 0.762,
+   "recall_natural_mix": 0.023
+  },
+  "logreg@0.1": {
+   "rows_flagged": 57,
+   "precision": 0.702,
+   "recall": 0.056,
+   "precision_natural_mix": 0.702,
+   "recall_natural_mix": 0.056
+  },
+  "logreg@0.05": {
+   "rows_flagged": 133,
+   "precision": 0.609,
+   "recall": 0.114,
+   "precision_natural_mix": 0.609,
+   "recall_natural_mix": 0.114
+  },
+  "mean@0.5": {
+   "rows_flagged": 8,
+   "precision": 1.0,
+   "recall": 0.011,
+   "precision_natural_mix": 1.0,
+   "recall_natural_mix": 0.011
+  },
+  "mean@0.3": {
+   "rows_flagged": 17,
+   "precision": 0.647,
+   "recall": 0.016,
+   "precision_natural_mix": 0.647,
+   "recall_natural_mix": 0.016
+  },
+  "mean@0.2": {
+   "rows_flagged": 22,
+   "precision": 0.591,
+   "recall": 0.018,
+   "precision_natural_mix": 0.591,
+   "recall_natural_mix": 0.018
+  },
+  "mean@0.1": {
+   "rows_flagged": 63,
+   "precision": 0.508,
+   "recall": 0.045,
+   "precision_natural_mix": 0.508,
+   "recall_natural_mix": 0.045
+  },
+  "mean@0.05": {
+   "rows_flagged": 168,
+   "precision": 0.446,
+   "recall": 0.106,
+   "precision_natural_mix": 0.167,
+   "recall_natural_mix": 0.106
+  },
+  "rule(advisory in last 12m)": {
+   "rows_flagged": 538,
+   "precision": 0.268,
+   "recall": 0.203,
+   "precision_natural_mix": 0.268,
+   "recall_natural_mix": 0.203
+  }
+ },
+ "method_scores": {
+  "gbdt": 0.015,
+  "logreg": 0.123,
+  "mean": 0.067
+ },
+ "final_method": "logreg"
+}

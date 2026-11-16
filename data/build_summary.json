@@ -1,0 +1,29 @@
+{
+  "snapshot": "2026-11-01T21:35:52+00:00",
+  "groups": {
+    "popular_random": {
+      "packages": 500,
+      "rows": 14261,
+      "rows_with_new_ghsa": 39
+    },
+    "advisory_enriched": {
+      "packages": 247,
+      "rows": 8555,
+      "rows_with_new_ghsa": 928
+    }
+  },
+  "skipped": [
+    [
+      "@lightdash/cli",
+      "too many versions"
+    ],
+    [
+      "@siteboon/claudecodeui",
+      "download failed"
+    ],
+    [
+      "Flowise",
+      "download failed"
+    ]
+  ]
+}
